@@ -1,0 +1,21 @@
+{
+    "full_name": "Vinh Hoa TU",
+    "name": "VinhHoa",
+    "current_role": "Talented AI Engineer",
+    "location": "Villejuif",
+    "email": "tuvinhhoa192@gmail.com",
+    "linkedin": "linkedin.com/in/vinh-hoa-tu/",
+    "specialties": [
+      "Machine Learning",
+      "AI generative",
+      "Statistiq"
+    ],
+    "years_experience": 2,
+    "education": [
+      {
+        "degree": "Master",
+        "institution": "Sorbonne Université",
+        "year": "2025"
+      }
+    ]
+  }

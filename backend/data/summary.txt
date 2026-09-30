@@ -1,0 +1,6 @@
+I am a AI Engineer with 2 of experience in generative AI. 
+My expertise includes LLM and agentic AI.
+
+Currently, I'm focused on creating Agentic AI workflow.
+
+My background includes constructing an agentic projet for pubmed.
