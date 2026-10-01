@@ -66,6 +66,8 @@
 #       - name: Destruction Complete
 #         run: |
 #           echo "✅ Environment ${{ github.event.inputs.environment }} has been destroyed!"
+
+
 name: Destroy Environment
 
 on:
@@ -138,3 +140,6 @@ jobs:
           ENVIRONMENT: ${{ github.event.inputs.environment }}
         run: |
           chmod +x scripts/destroy.sh
+          ./scripts/destroy.sh ${{ github.event.inputs.environment }}
+        env:
+          AWS_ROLE_ARN: ${{ secrets.AWS_ROLE_ARN }}
